@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+nav{
+    height: 80px;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    /* justify-content:; */
+    align-items: center;
+    gap: 30px;
+    padding-right: 30px;
+
+}
+a{
+    text-decoration-line: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+}
+aside{
+    height: 100vh;
+    width: 150px;
+    background-color: white;
+    /* border: 2px solid black; */
+    box-shadow: 10px 0px 30px black;
+    border-top-right-radius: 30px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+    position: relative;
+    bottom: 80px;
+
+}
+
+#logo{
+    flex-basis: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#levis{
+    height: 100px;
+    width: 100px;
+}
+
+#list{
+    flex-basis: 80%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    gap: 40px;
+    padding-top: 60px;
+}
+
+#gif{
+    height: 400px;
+    width: 650px;
+    /* border: 2px solid black; */
+    position: relative;
+    /* top: 50px; */
+    left: 550px;
+    bottom: 670px;   
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+
+    box-shadow: 10px 10px 30px black,-10px -10px 30px  black ;
+}
+
+#closet{
+    height: inherit;
+    width: inherit;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+    
+}
+
+#content{
+    height: 100px;
+    width: 650px;
+    font-size: 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+
+    position: relative;
+    /* top: 130px; */
+    left: 560px;
+    background-color: black;
+    color: white;
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 30px black,-10px -10px 30px black ;
+    bottom: 620px;
+
+
+}
